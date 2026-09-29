@@ -1,0 +1,179 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration</title>
+
+    <style>
+        body {
+            background-color: #111;
+            color: white;
+            font-family: Arial;
+        }
+
+        form {
+            background-color: #222;
+            width: 500px;
+            margin: 50px auto;
+            padding: 30px;
+            border-radius: 15px;
+        }
+
+        h1 {
+            text-align: center;
+            color: gold;
+        }
+
+        h2 {
+            color: gold;
+            border-bottom: 1px solid #555;
+            padding-bottom: 8px;
+        }
+
+        p {
+            color: #ccc;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 10px;
+            border-radius: 7px;
+            border: none;
+        }
+
+        .option {
+            width: auto;
+        }
+
+        textarea {
+            height: 100px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 20px;
+            background-color: gold;
+            border: none;
+            border-radius: 7px;
+            font-size: 17px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<form action="register.html" method="get">
+
+    <h1>Student Registration Form</h1>
+
+    <p>
+        Welcome! Please fill out the form below to create your student account.
+        Make sure all the information you provide is correct.
+    </p>
+
+
+    <h2>Personal Information</h2>
+
+    <label for="name">Full Name</label>
+    <input type="text" id="name" placeholder="Enter your full name" required>
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" placeholder="Enter your email address" required>
+
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" placeholder="Enter your phone number">
+
+    <label for="dob">Date of Birth</label>
+    <input type="date" id="dob">
+
+
+    <label>Gender</label>
+
+    <input class="option" type="radio" id="male" name="gender">
+    <label for="male">Male</label>
+
+    <input class="option" type="radio" id="female" name="gender">
+    <label for="female">Female</label>
+
+    <input class="option" type="radio" id="other" name="gender">
+    <label for="other">Other</label>
+
+
+    <h2>Address</h2>
+
+    <label for="address">Full Address</label>
+    <textarea id="address" placeholder="Enter your complete address"></textarea>
+
+    <label for="city">City</label>
+    <input type="text" id="city" placeholder="Enter your city">
+
+    <label for="country">Country</label>
+    <select id="country">
+        <option>Select your country</option>
+        <option>India</option>
+        <option>United States</option>
+        <option>United Kingdom</option>
+        <option>Canada</option>
+        <option>Australia</option>
+    </select>
+
+
+    <h2>Education</h2>
+
+    <label for="college">College / School Name</label>
+    <input type="text" id="college" placeholder="Enter your institution name">
+
+    <label for="course">Course</label>
+    <input type="text" id="course" placeholder="Example: B.Tech AI">
+
+    <label for="year">Year of Study</label>
+    <select id="year">
+        <option>Select your year</option>
+        <option>First Year</option>
+        <option>Second Year</option>
+        <option>Third Year</option>
+        <option>Fourth Year</option>
+    </select>
+
+
+    <h2>Account Details</h2>
+
+    <label for="username">Username</label>
+    <input type="text" id="username" placeholder="Choose a username" required>
+
+    <label for="password">Password</label>
+    <input type="password" id="password" placeholder="Create a password" required>
+
+
+    <h2>Interests</h2>
+
+    <p>Select the activities you are interested in:</p>
+
+    <input class="option" type="checkbox" id="coding">
+    <label for="coding">Coding</label>
+
+    <input class="option" type="checkbox" id="gaming">
+    <label for="gaming">Gaming</label>
+
+    <input class="option" type="checkbox" id="sports">
+    <label for="sports">Sports</label>
+
+    <input class="option" type="checkbox" id="music">
+    <label for="music">Music</label>
+
+
+    <h2>Additional Information</h2>
+
+    <label for="about">Tell us about yourself</label>
+    <textarea id="
+```

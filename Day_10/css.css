@@ -1,0 +1,11 @@
+
+.card{
+    padding:20px;
+    background-color: aqua;
+}
+.text-underline{
+    color: brown;
+}
+.card.bg-green .text-underline{
+    color: yellow;
+}

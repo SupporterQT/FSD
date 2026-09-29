@@ -1,0 +1,17 @@
+body{
+    background-color: gold;
+}
+
+h1{
+    text-decoration: blue underline;
+    color: red;
+}
+
+p {
+    font-family: "Brush Script MT", cursive;
+    color : purple
+}
+
+#s1{
+    color:black;
+}
